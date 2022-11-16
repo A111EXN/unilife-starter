@@ -1,0 +1,14 @@
+.header-container{
+    background-color: #00A2E1;
+    width: auto;
+    height:40px;
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+.header-container img{
+    height: 30px;
+    align-items: center;
+}
