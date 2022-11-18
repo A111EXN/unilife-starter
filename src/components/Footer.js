@@ -6,7 +6,22 @@ import '../styles/Footer.css'
 
 function Footer() {
   return (
-    <div className='footer-container'>
+  <div>
+    <div className='footer-container-upper'>
+      <div className='keep-in-touch-container'>
+        <p style={{fontSize:"30px"}}>Keep in touch</p>
+        <p>Curious about new offerings? Sign up for our <br/>newsletter and stay informed</p>
+        <input placeholder='Your email'/>
+      </div>
+      <div className='lets-socialize-container'>
+        <p style={{fontSize:"30px"}}> Let's Socialize</p>
+        <p>  <img src='https://cdn3.iconfinder.com/data/icons/social-network-outline-3/100/Facebook-64.png'/> Facebook</p>
+        <p> <img src='https://cdn4.iconfinder.com/data/icons/a-s-social-set/256/twitter-64.png'/> Twitter</p>
+        <p> <img src='https://cdn4.iconfinder.com/data/icons/a-s-social-set/256/instagram-64.png'/> Instagram</p>
+
+      </div>
+    </div>
+    <div className='footer-container-lower'>
         <div>About Us</div>
         <div>Terms & Conditions</div>
         <div>Privacy & Cookie Policies</div>      
@@ -16,6 +31,7 @@ function Footer() {
         Unilife
        </div>
     </div>
+  </div>
   )
 }
 

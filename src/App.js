@@ -3,6 +3,8 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Body from './components/Body';
+
 
 function App() {
 const [email,setEmail]=useState('')
@@ -17,7 +19,7 @@ const handleSubmit=(e)=>{
     <BrowserRouter>
         <Header/>
           <Routes>
-             <Route/>
+             <Route path="/" element={<Body/>}/>
           </Routes>
         <Footer/>
     </BrowserRouter>
