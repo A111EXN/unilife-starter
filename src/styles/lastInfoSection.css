@@ -1,14 +1,12 @@
+
 .bottom-page{
     display: flex;
 }
-
 .right-container{
-    background-color: aqua;
     height: 300px;
     width: 50%;
     padding: 60px;
 }
-
 .right-container input{
     border: none;
     margin-top: 16px;

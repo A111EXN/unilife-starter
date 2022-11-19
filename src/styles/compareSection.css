@@ -1,0 +1,35 @@
+.back-ground{
+    height: 400px;
+    width: auto;
+    margin: 50px 40px;
+    background-color: #F6FAFD;
+    border-radius: 8px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.flex-container{
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-container p{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container img{
+    height: auto;
+    margin: 10px 148px;
+}

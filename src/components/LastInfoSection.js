@@ -1,9 +1,10 @@
 import React from 'react'
-import '../styles/body.css'
-import '../assets/person.png'
+import '../styles/lastInfoSection.css'
 
-function Body() {
+function LastInfoSection() {
   return (
+<div>      
+  <div> 
     <div className='bottom-page'>
      <div className='right-container'>
       <div>
@@ -22,7 +23,9 @@ function Body() {
         <img src='src\assets\person.png'/>
      </div>
     </div>
+  </div>
+</div>
   )
 }
 
-export default Body
+export default LastInfoSection
