@@ -14,3 +14,10 @@
     background-color: #3A5295;
     color: white;
 }
+.title{
+ display: flex;
+}
+.title img{
+    height: 50px;
+    width: 50px;
+}

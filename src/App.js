@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import LastInfoSection from './components/LastInfoSection';
 import CompareSection from './components/CompareSection';
+import Banner from './components/Banner';
 
 function App() {
 const [email,setEmail]=useState('')
