@@ -14,6 +14,22 @@
     background-color: #3A5295;
     color: white;
 }
+.right-container button{
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3A5295;
+    color: white;
+    margin-top: 20px;
+}
+.right-container img{
+    height: 50px;
+    padding-right: 20px;
+}
+.icon{
+    display: flex;
+}
+
 .title{
  display: flex;
 }

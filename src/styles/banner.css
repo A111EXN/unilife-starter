@@ -1,4 +1,15 @@
 .banner{
-    height: 1000px;
+    width: 1440px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.big-text{
+    background-color: aqua;
+    height: auto;
     width: auto;
 }

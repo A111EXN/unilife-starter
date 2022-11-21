@@ -1,0 +1,33 @@
+.filter-options{
+    position: absolute;
+    top: 500px;
+    margin-left: 150px;
+    width: 77%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #999999 ;
+    border-radius: 16px;
+
+}
+
+.filter-options select{
+    width: 300px;
+    padding: 8px;
+    margin: 30px;
+    border-radius: 8px;
+    color: #CED3D8;
+    border: 1px solid #CED3D8; 
+} 
+
+.filter-options button{
+    width: 150px;
+    padding: 8px;
+    margin: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3A5295;
+    color: white;
+}
