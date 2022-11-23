@@ -1,0 +1,12 @@
+.title-second{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 300px auto 50px;
+  }

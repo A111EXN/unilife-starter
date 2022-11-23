@@ -6,7 +6,6 @@ import '../styles/Header.css'
 function Header() {
   return (
     <div className='header-container'>
-
         <div>
            <img src='https://cdn3.iconfinder.com/data/icons/watchify-v1-0/70/home-70px-64.png'/>
             UniLife

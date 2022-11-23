@@ -2,13 +2,15 @@ import React from 'react'
 import CompareSection from '../components/CompareSection'
 import LastInfoSection from '../components/LastInfoSection'
 import Banner from '../components/Banner'
+import Grid from '../components/Grid'
 import '../styles/homepage.css'
+
 
 function HomePage() {
   return (
     <div>
       <div>
-        <Banner/>
+        <Banner title="Find student homes with bills included" smallTitle=" A simple and faster way to search for student accommodation"/>
          <div className='filter-options'>
            <div>
             <select>
@@ -22,6 +24,7 @@ function HomePage() {
             </div>
            <div><button>Find Homes</button></div>
          </div>
+        <Grid/>
         <CompareSection/>
         <LastInfoSection/>
         </div>

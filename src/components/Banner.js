@@ -1,20 +1,29 @@
 import React from 'react'
+import '../styles/banner.css'
 import picture from '../assets/cover-img.png'
 
 
+function Banner({title, smallTitle}) {
+ 
 
-function banner() {
+  const sliderStyle = {
+    backgroundImage: `url("${picture}")`,
+    backgroundSize:'cover',
+    backgroundPosition:'center',
+    backgroundRepeat:'no-repeat',
+    height:"480px",
+    position:"relative"
+    
+  }
   return (
-   <div>
-    <div className='banner'>
-     <img style={{width:"100%"}} src={picture}/>
-    </div>
-    <div className='big-text'>
-     <p> Find student homes with bills included</p>
-     <p> A simple and faster way to search for student accommodation</p>
+
+    <div style={sliderStyle}>
+    <div  className='banner-overlay'>
+     <p className='title'>{title}</p>
+     <p className='small-title'>{smallTitle}</p>
     </div>
    </div>    
   )
 }
 
-export default banner
+export default Banner
