@@ -7,6 +7,9 @@
     width: 50%;
     padding: 60px;
 }
+.right-container p{
+    padding-left: 70px;
+}
 .right-container input{
     border: none;
     margin-top: 16px;
@@ -20,11 +23,14 @@
     border: none;
     background-color: #3A5295;
     color: white;
-    margin-top: 20px;
+    margin: 30px 65px;
 }
 .right-container img{
     height: 50px;
     padding-right: 20px;
+}
+.best-selection{
+    margin-bottom: 30px;
 }
 .icon{
     display: flex;

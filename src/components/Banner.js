@@ -12,16 +12,18 @@ function Banner({title, smallTitle}) {
     backgroundPosition:'center',
     backgroundRepeat:'no-repeat',
     height:"480px",
-    position:"relative"
-    
+    position:"relative",
+    zIndex:'-2',
+    display:'flex',
+    flexDirection:'column',
+    justifyContent:'center',
   }
   return (
 
     <div style={sliderStyle}>
-    <div  className='banner-overlay'>
+    <div  className='banner-overlay'> </div>
      <p className='title'>{title}</p>
      <p className='small-title'>{smallTitle}</p>
-    </div>
    </div>    
   )
 }

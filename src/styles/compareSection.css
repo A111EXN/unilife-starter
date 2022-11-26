@@ -23,13 +23,25 @@
     flex-wrap: wrap;
 }
 
+.box{
+    display: flex;
+    flex-direction: column;    
+    width: auto;
+}
+
 .flex-container p{
     color: black;
     display: flex;
     justify-content: center;
 }
+.flex-container h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-.flex-container img{
-    height: auto;
-    margin: 10px 148px;
+.pic{
+    height: 70px;
+    width: 70px;
+    justify-items: center;
 }

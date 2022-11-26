@@ -19,12 +19,25 @@
 .keep-in-touch-container{
     height:auto;
     width: 50%;
-    margin-left: 70px;
+    margin: 50px 70px;
+}
+.keep-in-touch-container p{
+    margin: 10px;
+}
+
+.keep-in-touch-container input{
+    padding: 5px;
+    width: 300px;
 }
 
 .lets-socialize-container{
     height:auto;
     width: 50%;
+    margin-top: 50px;
+}
+
+.lets-socialize-container p{
+    margin: 10px;
 }
 
 .footer-container-lower{

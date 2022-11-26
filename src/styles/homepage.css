@@ -1,9 +1,14 @@
-.filter-options{
+.filter-container{
     position: absolute;
-    top: 500px;
-    margin-left: 150px;
     width: 77%;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-options{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
