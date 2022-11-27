@@ -5,12 +5,15 @@ import Grid from './Grid'
 function CityCards({data}) {
 
   const imageStyle={
-    backgroundImage: `url("https://unilife-server.herokuapp.com/cities/${data?.image_url}")`,
+    backgroundImage: `url("${data?.image_url}")`,
     backgroundSize:'cover',
     backgroundPosition:'center',
     backgroundRepeat:'no-repeat',
-    height:"100px",
-    width:"100px",
+    height:"150px",
+    width:"200px",
+    borderRadius:'16px',
+    position: 'relative',
+    zIndex: '-2',
   }
 
 
@@ -20,9 +23,15 @@ function CityCards({data}) {
 
 
   return (
-    <div>
-      <div style={imageStyle}></div>
-        <p>{data.name}</p>
+    <div className='top-cities-cards'>
+      <div style={imageStyle}>
+        <div className='banner-overlay'>
+        <div>
+          <h1 className='city-name'>{data?.name}</h1>
+          <p className='property-count'>{data?.property_count}</p>
+        </div>
+        </div>
+      </div>
     </div>
   )
 }
