@@ -5,6 +5,8 @@
     height: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aqua;
 }
 
 
@@ -15,6 +17,7 @@
     color: white;
     font-size: 30px;
 }
+
 .property-count{
     display: flex;
     flex-direction: column;

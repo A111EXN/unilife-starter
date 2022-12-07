@@ -5,3 +5,7 @@
     font-size: 30px;
 }
 
+.grid-container{
+    display: flex;
+    background-color: blue;
+}
