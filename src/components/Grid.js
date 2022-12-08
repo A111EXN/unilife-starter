@@ -18,17 +18,16 @@ function Grid() {
 
 
   return (
-    <div>
+    <div className='grid-parent'>
         <p className='title-second'>Student accommodation in our top cities</p>
             <div className='grid-container'>
-                <div>
                     {
                         topCities?.map(item=>{
                             return <CityCards data={item}/>
                         })
                     }
-                </div>
             </div>
+        <button className='button-see-cities'>See All Cities</button>
     </div>
 
   )

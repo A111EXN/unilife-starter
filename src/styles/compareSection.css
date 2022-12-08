@@ -26,7 +26,11 @@
 .box{
     display: flex;
     flex-direction: column;    
-    width: auto;
+    width: 300px;
+    margin-left: 20px;
+
+    justify-items: flex-end;
+    align-items: center;
 }
 
 .flex-container p{
@@ -43,5 +47,4 @@
 .pic{
     height: 70px;
     width: 70px;
-    justify-items: center;
 }

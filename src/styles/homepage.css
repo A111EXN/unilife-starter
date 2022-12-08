@@ -7,6 +7,12 @@
     justify-content: center;
 }
 
+.search-filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .filter-options{
     position: relative;
     display: flex;

@@ -11,25 +11,27 @@ function HomePage() {
   return (
     <div>
       <div>
-        <Banner title="Find student homes with bills included" smallTitle=" A simple and faster way to search for student accommodation"/>
-        <div className='filter-container'>
-          <div className='filter-options'>
-            <div>
-             <select>
-               <option value="">Search by city</option>
-             </select>
-             </div>
-             <div>
-             <select>
-               <option value="">Any bedroom</option>
-             </select>
-             </div>
-            <div><button>Find Homes</button></div>
-           </div>
-          </div>
-        <Grid/>
-        <CompareSection/>
-        <LastInfoSection/>
+          <Banner title="Find student homes with bills included" smallTitle=" A simple and faster way to search for  student accommodation"/>
+               <div className='search-filter'>
+                      <div className='filter-container'>
+                        <div className='filter-options'>
+                            <div>
+                               <select>
+                                  <option value="">Search by city</option>
+                                </select>
+                            </div>
+                            <div>
+                                <select>
+                                   <option value="">Any bedroom</option>
+                                </select>
+                            </div>
+                            <div><button>Find Homes</button></div>
+                        </div>
+                      </div>
+               </div>
+            <Grid/>
+            <CompareSection/>
+            <LastInfoSection/>
         </div>
     </div>
     
