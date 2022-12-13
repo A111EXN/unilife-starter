@@ -1,0 +1,17 @@
+.studentAccomodationPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleSearchByCity{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.SearchGridContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+    align-items: center;
+}
+
