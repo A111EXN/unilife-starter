@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import '../styles/grid.css'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 import CityCards from './CityCards'
 
 function Grid() {
@@ -27,7 +28,7 @@ function Grid() {
                         })
                     }
             </div>
-        <button className='button-see-cities'>See All Cities</button>
+        <Link className='button-see-cities' to='/StudentAccomodation'>See All Cities</Link>
     </div>
 
   )

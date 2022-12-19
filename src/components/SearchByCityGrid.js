@@ -1,7 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import '../styles/searchbycitygrid.css'
-import CityNameCards from './CityNameCards'
 
 function SearchByCityGrid() {
 
@@ -9,12 +8,13 @@ function SearchByCityGrid() {
 
 
   useEffect(() => {
-    axios.get(`https://unilife-server.herokuapp.com/cities`)
+    axios.get(`https://unilife-server.herokuapp.com/cities?limit=20`)
     .then(res=>{
      console.log(res.data)
-     searchCities(res.data.response)
+     setSearchCities(res.data.response)
     })
     .catch(err=>console.log(err))
+    console.log(searchCities)
  }, [])
 
 
@@ -24,7 +24,7 @@ function SearchByCityGrid() {
         <div className='SearchGridContainer'>
                     {
                         searchCities?.map(item=>{
-                            return <CityNameCards data={item}/>
+                            return <button>{item.name}</button>
                         })
                     }
             </div>

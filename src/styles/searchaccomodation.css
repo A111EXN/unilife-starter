@@ -1,0 +1,33 @@
+.search-filter-student-accommodation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-container-student-accommodation{
+    position: absolute;
+    width: 77%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-options-student-accommodation{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 5px #999999 ;
+    border-radius: 16px;
+}
+
+.filter-options-student-accommodation select{
+    width: 200px;
+    padding: 8px;
+    margin: 30px;
+    border-radius: 8px;
+    color: #CED3D8;
+    border: 1px solid #CED3D8; 
+} 

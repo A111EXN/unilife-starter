@@ -31,7 +31,7 @@ function HomePage() {
                </div>
             <Grid/>
             <CompareSection/>
-            <LastInfoSection/>
+            <LastInfoSection/> 
         </div>
     </div>
     

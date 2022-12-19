@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import StudentAccomodation from './pages/StudentAccomodation'
+import SearchAccomodation from './pages/SearchAccomodation';
 import LastInfoSection from './components/LastInfoSection';
 import CompareSection from './components/CompareSection';
 import Banner from './components/Banner';
@@ -24,6 +25,7 @@ const handleSubmit=(e)=>{
           <Routes>
              <Route path="/" element={<HomePage/>}/>
              <Route path="/StudentAccomodation" element={<StudentAccomodation/>}/>
+             <Route path="/SearchAccomodation" element={<SearchAccomodation/>}/>
           </Routes>
         <Footer/>
     </BrowserRouter>
