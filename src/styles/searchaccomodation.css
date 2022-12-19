@@ -26,8 +26,17 @@
 .filter-options-student-accommodation select{
     width: 200px;
     padding: 8px;
-    margin: 30px;
+    margin: 10px 10px 20px 20px;
     border-radius: 8px;
     color: #CED3D8;
     border: 1px solid #CED3D8; 
 } 
+.search-filter-search-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.search-filter-search-name p{
+    margin: 20px 0px 0px 20px;
+
+}

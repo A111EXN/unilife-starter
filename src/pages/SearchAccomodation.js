@@ -12,22 +12,26 @@ function SearchAccomodation() {
         <div className='search-filter-student-accommodation'>
                       <div className='filter-container-student-accommodation'>
                         <div className='filter-options-student-accommodation'>
-                            <div>
+                            <div className='search-filter-search-name'>
+                               <p>Bedroom</p>
                                <select>
                                   <option value="">Any bedroom</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className='search-filter-search-name'>
+                                <p>Bathroom</p>
                                 <select>
                                    <option value="">Any bathroom</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className='search-filter-search-name'>
+                                <p>Max Price</p>
                                 <select>
                                    <option value="">Max Price</option>
                                 </select>
                             </div>
-                            <div>
+                            <div className='search-filter-search-name'>
+                                <p>Home type</p>
                                 <select>
                                    <option value="">Home Type</option>
                                 </select>
