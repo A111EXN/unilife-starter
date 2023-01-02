@@ -1,0 +1,39 @@
+.search-accomodation-title-homes{
+    font-size: 30px;
+}
+
+.search-accomodation-page{
+    padding-top: 50px;
+}
+
+.search-accomodation-grid-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search-accomodation-grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    background-color: blueviolet;
+}
+
+
+
+
+
+.search-accomodation-bottom-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-accomodation-bottom-description-left{
+}
+
+.search-accomodation-bottom-description-right{
+
+}

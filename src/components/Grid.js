@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import CityCards from './CityCards'
 
 function Grid() {
-
+  
     const [topCities,setTopCities]=useState([])
 
     useEffect(() => {
@@ -33,5 +33,5 @@ function Grid() {
 
   )
 }
-
+    
 export default Grid

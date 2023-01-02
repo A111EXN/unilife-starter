@@ -25,4 +25,16 @@
     padding: 10px 10px;
     font-size: 20px;
     background-color: white;
+    
 }
+
+.SearchGridContainer button {
+    transition-duration: 0.4s;
+  }
+  
+.SearchGridContainer button:hover {
+    background-color: #3A5295; 
+    color: white;
+    cursor: pointer;
+  }
+

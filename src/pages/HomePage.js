@@ -3,8 +3,8 @@ import CompareSection from '../components/CompareSection'
 import LastInfoSection from '../components/LastInfoSection'
 import Banner from '../components/Banner'
 import Grid from '../components/Grid'
-import CityCards from '../components/CityCards'
 import '../styles/homepage.css'
+
 
 
 function HomePage() {

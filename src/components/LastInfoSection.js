@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/lastInfoSection.css'
 import person from '../assets/person.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -25,7 +26,7 @@ function LastInfoSection() {
         <p>Shortlist your favourite properties and send <br/>enquiries in one click</p>
       </div>
       <div>
-        <button>Search & Compare</button>
+      <Link className='last-info-button' to='SearchAccomodation/'>Search & Compare</Link>
       </div>
     </div>
     <div className='left-container'>

@@ -22,14 +22,14 @@ function SearchByCityGrid() {
     <div className='studentAccomodationPage'>
         <p className='titleSearchByCity'>Search by City</p>
         <div className='SearchGridContainer'>
-                    {
-                        searchCities?.map(item=>{
-                            return <button>{item.name}</button>
-                        })
-                    }
-            </div>
+              {
+                  searchCities?.map(item=>{
+                      return <button className='city-search-buttons'>{item.name}</button>
+                   })
+              }
+        </div>
     </div>
   )
 }
 
-export default SearchByCityGrid
+export default SearchByCityGrid 
