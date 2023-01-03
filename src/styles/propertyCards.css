@@ -1,0 +1,60 @@
+.property-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: solid 1px black;
+    border-radius: 16px;
+}
+
+.property-rooms img{
+    height: 30px;
+}
+
+.property-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3A5295;
+    color: white;
+    padding: 0px 10px;
+}
+
+.property-location-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.property-adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.property-rooms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.property-type-furnished{
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-type-furnished img{
+    height: 20px;
+}
+
+.property-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

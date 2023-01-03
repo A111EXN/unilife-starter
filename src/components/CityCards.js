@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/cityCards.css'
 import Grid from './Grid'
+import { Link } from 'react-router-dom'
+
 
 function CityCards({data}) {
 
@@ -23,7 +25,7 @@ function CityCards({data}) {
 
 
   return (
-    <div className='top-cities-cards'>
+    <Link className='top-cities-cards' to={`/SearchAccomodation/${data?._id}`}>
       <div style={imageStyle}>
         <div className='banner-overlay'>
           <div className='cities-display'>
@@ -32,7 +34,7 @@ function CityCards({data}) {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

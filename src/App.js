@@ -25,7 +25,7 @@ const handleSubmit=(e)=>{
           <Routes>
              <Route path="/" element={<HomePage/>}/>
              <Route path="/StudentAccomodation" element={<StudentAccomodation/>}/>
-             <Route path="/SearchAccomodation" element={<SearchAccomodation/>}/>
+             <Route path="/SearchAccomodation/:cityId" element={<SearchAccomodation/>}/>
           </Routes>
         <Footer/>
     </BrowserRouter>

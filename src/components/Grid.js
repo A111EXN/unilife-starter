@@ -17,6 +17,7 @@ function Grid() {
         .catch(err=>console.log(err))
      }, [])
 
+     const [cityId, setCityId]=useState('')
 
   return (
     <div className='grid-parent'>
