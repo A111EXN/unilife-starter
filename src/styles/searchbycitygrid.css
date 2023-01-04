@@ -12,29 +12,35 @@
 
 .SearchGridContainer{
     display: grid;
-    grid-template-columns: repeat(3,1fr);   
+    grid-template-columns: repeat(4,1fr);   
     align-items: center;
-    margin-bottom: 70px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
-.SearchGridContainer button{
+.city-search-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px 70px;
-    width: 170px;
+    width: 150px;
     border: black 1px solid;
     border-radius: 8px;
     padding: 10px 10px;
     font-size: 20px;
+    color: black;
     background-color: white;
-    
+    text-decoration: none;
 }
 
-.SearchGridContainer button {
+.city-search-buttons{
     transition-duration: 0.4s;
   }
   
-.SearchGridContainer button:hover {
+  .city-search-buttons:hover {
     background-color: #3A5295; 
     color: white;
     cursor: pointer;
   }
+
 

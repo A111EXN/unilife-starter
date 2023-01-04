@@ -22,16 +22,16 @@ function SearchAccomodation() {
   return (
     <div className='search-accomodation-page'>
          <p className='search-accomodation-title-homes'> {cityId.property_count} homes in {cityId.name}</p>
-
-            {
-              cityProperties?.map(item=>{
-                return <PropertyCard property={item}/>
-              })
-            }
-
+            <div className='search-accomodation-grid-container'>
+                {
+                  cityProperties?.map(item=>{
+                    return <PropertyCard property={item}/>
+                 })
+                }
+            </div>
          <div  className='search-accomodation-bottom-description'>
               <div className='search-accomodation-bottom-description-left'>
-                <p>Being a student in X</p>
+                <p>text</p>
                 <p>text</p>
               </div>
               <div className='search-accomodation-bottom-description-right'>

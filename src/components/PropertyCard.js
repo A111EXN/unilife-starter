@@ -26,7 +26,10 @@ function PropertyCard({property}) {
                     <p className='property-adress'> <img src='https://cdn0.iconfinder.com/data/icons/education-340/100/Tilda_Icons_1ed_location-64.png'/> {property.address.street},{property.address.postcode}</p>
                 </div>
             </div>
-            <a className='property-view'>View Home</a>
+                <div className='property-view'>    
+                    <img src='https://cdn4.iconfinder.com/data/icons/top-search-7/128/_home_house_building_property_estate-64.png'/>          
+                    <a>View Home</a>
+                </div>  
         </div>                
     </div>
   )
