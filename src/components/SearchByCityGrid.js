@@ -1,8 +1,10 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import '../styles/searchbycitygrid.css'
+import { Link } from 'react-router-dom'
 
-function SearchByCityGrid() {
+
+function SearchByCityGrid(data) {
 
   const [searchCities,setSearchCities]=useState([])
 
@@ -24,7 +26,7 @@ function SearchByCityGrid() {
         <div className='SearchGridContainer'>
               {
                   searchCities?.map(item=>{
-                      return <button className='city-search-buttons'>{item.name}</button>
+                      return <Link className='city-search-buttons' to={`/SearchAccomodation/${data?._id}`}>{item.name}</Link>
                    })
               }
         </div>

@@ -26,7 +26,7 @@ function LastInfoSection() {
         <p>Shortlist your favourite properties and send <br/>enquiries in one click</p>
       </div>
       <div>
-      <Link className='last-info-button' to='SearchAccomodation/'>Search & Compare</Link>
+      <Link className='last-info-button' to='StudentAccomodation/'>Search & Compare</Link>
       </div>
     </div>
     <div className='left-container'>

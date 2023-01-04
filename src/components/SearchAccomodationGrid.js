@@ -1,3 +1,4 @@
+
 import React,{useEffect,useState} from 'react'
 import '../styles/searchAccomodationGrid.css'
 import { useParams } from 'react-router-dom'
