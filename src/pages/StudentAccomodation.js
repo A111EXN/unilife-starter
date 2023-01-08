@@ -37,7 +37,7 @@ const [topCities,setTopCities]=useState([])
             <div className='SearchGridContainer'>
                         {
                            topCities?.map(item=>{
-                                return <SearchByCityGrid data={item}/>
+                                return <SearchByCityGrid key={item.name} data={item}/>
                            })
                         }        
             </div>

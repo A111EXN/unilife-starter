@@ -1,7 +1,13 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import '../styles/propertyCards.css'
+import { Link } from 'react-router-dom'
+import axios from 'axios'
+import { useParams } from 'react-router-dom'
+
 
 function PropertyCard({property}) {
+
+     
   return (
     <div className='property-card'>
         <div className='property-card-container'>
@@ -26,10 +32,10 @@ function PropertyCard({property}) {
                     <p className='property-adress'> <img src='https://cdn0.iconfinder.com/data/icons/education-340/100/Tilda_Icons_1ed_location-64.png'/> {property.address.street},{property.address.postcode}</p>
                 </div>
             </div>
-                <div className='property-view'>    
+                <Link className='property-view' to={`/HomeDetailPage/${property?._id}`}>    
                     <img src='https://cdn4.iconfinder.com/data/icons/top-search-7/128/_home_house_building_property_estate-64.png'/>          
-                    <a>View Home</a>
-                </div>  
+                    <p>View Home</p>
+                </Link>  
         </div>                
     </div>
   )

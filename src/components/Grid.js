@@ -25,7 +25,7 @@ function Grid() {
             <div className='grid-container'>
                     {
                         topCities?.map(item=>{
-                            return <CityCards data={item}/>
+                            return <CityCards key={item._id} data={item}/>
                         })
                     }
             </div>
