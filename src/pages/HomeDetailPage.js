@@ -45,7 +45,7 @@ function HomeDetailPage() {
               <p>{home?.address?.postcode}</p>
             </div>
             <div className='home-info-grid-container'>
-              <div class="home-grid-item">
+              <div className="home-grid-item">
                 <p>Bedrooms</p>
                 {home?.bedroom_count}
               </div>
@@ -75,6 +75,41 @@ function HomeDetailPage() {
                 <button>Book Viewing</button>
               </div>
           </div>
+        </div>
+        <div className='description-price-container'>
+          <div className='home-info-description'>
+            <p className='description-title'>Description</p>
+            <p className='description-text'>{home?.property_description}</p>
+          </div>
+          <div className='bedroom-prices'>
+            <p className='bedroom-title'>Bedroom Prices</p>
+            <div className='bedroom-price-grid-container'>
+              <div class="bedroom-price-grid"> 
+              <p>Bedroom 1</p>
+              <p>{home?.bedroom_prices?.bedroom_one}</p>
+              </div>
+              <div class="bedroom-price-grid"> 
+              <p>Bedroom 2</p>
+              <p>{home?.bedroom_prices?.bedroom_two}</p>
+              </div>
+              <div class="bedroom-price-grid"> 
+              <p>Bedroom 3</p>
+              <p>{home?.bedroom_prices?.bedroom_three}</p>
+              </div>
+              <div class="bedroom-price-grid"> 
+              <p>Bedroom 4</p>
+              <p>{home?.bedroom_prices?.bedroom_four}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='key-features-container'>
+          <p className='key-features-title'>Key Features</p>
+          <li className='key-list'>{home?.key_features?.[0]}</li>
+          <li className='key-list'>{home?.key_features?.[1]}</li>
+          <li className='key-list'>{home?.key_features?.[2]}</li>
+          <li className='key-list'>{home?.key_features?.[3]}</li>
+          <li className='key-list'>{home?.key_features?.[4]}</li>
         </div>
     </div>
   )
